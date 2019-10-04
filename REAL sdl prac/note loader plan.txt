@@ -1,0 +1,3 @@
+Store notes in 3d/4d vector: x, y, time, (maybe type) done
+NoteLoader class which reads from .osu file and returns an array of notes for GameObject::Update() to use getting there
+loop through array of notes and draw next after previous is destroyed

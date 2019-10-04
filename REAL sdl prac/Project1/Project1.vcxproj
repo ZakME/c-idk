@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{A0A11FE4-9867-4D8F-98E4-90BBF4928FC9}</ProjectGuid>
+    <RootNamespace>Project1</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>F:\Zakary Keehn - CS30\C++\extra libs\SDL2\include;F:\Zakary Keehn - CS30\C++\extra libs\SDL2_image-2.0.1\include;$(IncludePath)</IncludePath>
+    <LibraryPath>F:\Zakary Keehn - CS30\C++\extra libs\SDL2_image-2.0.1\lib\x64;F:\Zakary Keehn - CS30\C++\extra libs\SDL2\lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>F:\Zakary Keehn - CS30\C++\extra libs\SDL2_image-2.0.1\include;F:\Zakary Keehn - CS30\C++\extra libs\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>F:\Zakary Keehn - CS30\C++\extra libs\SDL2_image-2.0.1\lib\x64;F:\Zakary Keehn - CS30\C++\extra libs\SDL2\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\skin\approachcircle%402x.png" />
+    <Image Include="assets\skin\approachcircle.png" />
+    <Image Include="assets\skin\arrow-warning%402x.png" />
+    <Image Include="assets\skin\arrow-warning.png" />
+    <Image Include="assets\skin\button-left%402x.png" />
+    <Image Include="assets\skin\button-left.png" />
+    <Image Include="assets\skin\button-middle%402x.png" />
+    <Image Include="assets\skin\button-middle.png" />
+    <Image Include="assets\skin\button-right%402x.png" />
+    <Image Include="assets\skin\button-right.png" />
+    <Image Include="assets\skin\comboburst-0.png" />
+    <Image Include="assets\skin\comboburst-fruits-0.png" />
+    <Image Include="assets\skin\comboburst-mania-0.png" />
+    <Image Include="assets\skin\count1.png" />
+    <Image Include="assets\skin\count2.png" />
+    <Image Include="assets\skin\count3.png" />
+    <Image Include="assets\skin\cursor%402x.png" />
+    <Image Include="assets\skin\cursor.png" />
+    <Image Include="assets\skin\cursormiddle.png" />
+    <Image Include="assets\skin\cursortrail%402x.png" />
+    <Image Include="assets\skin\cursortrail.png" />
+    <Image Include="assets\skin\default-0.png" />
+    <Image Include="assets\skin\default-1.png" />
+    <Image Include="assets\skin\default-2.png" />
+    <Image Include="assets\skin\default-3.png" />
+    <Image Include="assets\skin\default-4.png" />
+    <Image Include="assets\skin\default-5.png" />
+    <Image Include="assets\skin\default-6.png" />
+    <Image Include="assets\skin\default-7.png" />
+    <Image Include="assets\skin\default-8.png" />
+    <Image Include="assets\skin\default-9.png" />
+    <Image Include="assets\skin\fail-background%402x.png" />
+    <Image Include="assets\skin\fail-background.png" />
+    <Image Include="assets\skin\followpoint.png" />
+    <Image Include="assets\skin\fruit-apple%402x.png" />
+    <Image Include="assets\skin\fruit-apple-overlay.png" />
+    <Image Include="assets\skin\fruit-apple.png" />
+    <Image Include="assets\skin\fruit-bananas%402x.png" />
+    <Image Include="assets\skin\fruit-bananas-overlay.png" />
+    <Image Include="assets\skin\fruit-bananas.png" />
+    <Image Include="assets\skin\fruit-catcher-fail%402x.png" />
+    <Image Include="assets\skin\fruit-catcher-fail.png" />
+    <Image Include="assets\skin\fruit-catcher-idle%402x.png" />
+    <Image Include="assets\skin\fruit-catcher-idle.png" />
+    <Image Include="assets\skin\fruit-catcher-kiai%402x.png" />
+    <Image Include="assets\skin\fruit-catcher-kiai.png" />
+    <Image Include="assets\skin\fruit-drop%402x.png" />
+    <Image Include="assets\skin\fruit-drop.png" />
+    <Image Include="assets\skin\fruit-grapes%402x.png" />
+    <Image Include="assets\skin\fruit-grapes-overlay.png" />
+    <Image Include="assets\skin\fruit-grapes.png" />
+    <Image Include="assets\skin\fruit-orange%402x.png" />
+    <Image Include="assets\skin\fruit-orange-overlay.png" />
+    <Image Include="assets\skin\fruit-orange.png" />
+    <Image Include="assets\skin\fruit-pear%402x.png" />
+    <Image Include="assets\skin\fruit-pear-overlay.png" />
+    <Image Include="assets\skin\fruit-pear.png" />
+    <Image Include="assets\skin\go.png" />
+    <Image Include="assets\skin\hit0%402x.png" />
+    <Image Include="assets\skin\hit0-0%402x.png" />
+    <Image Include="assets\skin\hit0-0.png" />
+    <Image Include="assets\skin\hit0.png" />
+    <Image Include="assets\skin\hit100%402x.png" />
+    <Image Include="assets\skin\hit100-0%402x.png" />
+    <Image Include="assets\skin\hit100-0.png" />
+    <Image Include="assets\skin\hit100.png" />
+    <Image Include="assets\skin\hit100k%402x.png" />
+    <Image Include="assets\skin\hit100k-0%402x.png" />
+    <Image Include="assets\skin\hit100k-0.png" />
+    <Image Include="assets\skin\hit100k.png" />
+    <Image Include="assets\skin\hit300%402x.png" />
+    <Image Include="assets\skin\hit300-0.png" />
+    <Image Include="assets\skin\hit300.png" />
+    <Image Include="assets\skin\hit300g%402x.png" />
+    <Image Include="assets\skin\hit300g-0.png" />
+    <Image Include="assets\skin\hit300g.png" />
+    <Image Include="assets\skin\hit300k-0.png" />
+    <Image Include="assets\skin\hit300k.png" />
+    <Image Include="assets\skin\hit50%402x.png" />
+    <Image Include="assets\skin\hit50-0%402x.png" />
+    <Image Include="assets\skin\hit50-0.png" />
+    <Image Include="assets\skin\hit50.png" />
+    <Image Include="assets\skin\hitcircle%402x.png" />
+    <Image Include="assets\skin\hitcircle.png" />
+    <Image Include="assets\skin\hitcircleoverlay%402x.png" />
+    <Image Include="assets\skin\hitcircleoverlay.png" />
+    <Image Include="assets\skin\hitcircleselect%402x.png" />
+    <Image Include="assets\skin\hitcircleselect.png" />
+    <Image Include="assets\skin\inputoverlay-background.png" />
+    <Image Include="assets\skin\inputoverlay-key%402x.png" />
+    <Image Include="assets\skin\inputoverlay-key.png" />
+    <Image Include="assets\skin\lighting.png" />
+    <Image Include="assets\skin\lightingL%402x.png" />
+    <Image Include="assets\skin\lightingL.png" />
+    <Image Include="assets\skin\lightingN%402x.png" />
+    <Image Include="assets\skin\lightingN.png" />
+    <Image Include="assets\skin\mania-hit0%402x.png" />
+    <Image Include="assets\skin\mania-hit0-0%402x.png" />
+    <Image Include="assets\skin\mania-hit0-0.png" />
+    <Image Include="assets\skin\mania-hit0.png" />
+    <Image Include="assets\skin\mania-hit100%402x.png" />
+    <Image Include="assets\skin\mania-hit100-0%402x.png" />
+    <Image Include="assets\skin\mania-hit100-0.png" />
+    <Image Include="assets\skin\mania-hit100.png" />
+    <Image Include="assets\skin\mania-hit100k%402x.png" />
+    <Image Include="assets\skin\mania-hit100k.png" />
+    <Image Include="assets\skin\mania-hit200%402x.png" />
+    <Image Include="assets\skin\mania-hit200-0%402x.png" />
+    <Image Include="assets\skin\mania-hit200-0.png" />
+    <Image Include="assets\skin\mania-hit200.png" />
+    <Image Include="assets\skin\mania-hit300%402x.png" />
+    <Image Include="assets\skin\mania-hit300-0%402x.png" />
+    <Image Include="assets\skin\mania-hit300-0.png" />
+    <Image Include="assets\skin\mania-hit300.png" />
+    <Image Include="assets\skin\mania-hit300g%402x.png" />
+    <Image Include="assets\skin\mania-hit300g-0.png" />
+    <Image Include="assets\skin\mania-hit300g.png" />
+    <Image Include="assets\skin\mania-hit50%402x.png" />
+    <Image Include="assets\skin\mania-hit50-0%402x.png" />
+    <Image Include="assets\skin\mania-hit50-0.png" />
+    <Image Include="assets\skin\mania-hit50.png" />
+    <Image Include="assets\skin\mania-key%402x.png" />
+    <Image Include="assets\skin\mania-key.png" />
+    <Image Include="assets\skin\mania-keyD%402x.png" />
+    <Image Include="assets\skin\mania-keyD.png" />
+    <Image Include="assets\skin\mania-note.png" />
+    <Image Include="assets\skin\mania-stage-hint.png" />
+    <Image Include="assets\skin\mania-stage-left.png" />
+    <Image Include="assets\skin\mania-stage-light%402x.png" />
+    <Image Include="assets\skin\mania-stage-light.png" />
+    <Image Include="assets\skin\mania-stage-right.png" />
+    <Image Include="assets\skin\mania-warningarrow%402x.png" />
+    <Image Include="assets\skin\mania-warningarrow.png" />
+    <Image Include="assets\skin\menu-back%402x.png" />
+    <Image Include="assets\skin\menu-back.png" />
+    <Image Include="assets\skin\menu-background%402x.jpg" />
+    <Image Include="assets\skin\menu-background.jpg" />
+    <Image Include="assets\skin\menu-button-background%402x.png" />
+    <Image Include="assets\skin\menu-button-background.png" />
+    <Image Include="assets\skin\mode-fruits%402x.png" />
+    <Image Include="assets\skin\mode-fruits-med%402x.png" />
+    <Image Include="assets\skin\mode-fruits-med.png" />
+    <Image Include="assets\skin\mode-fruits-small%402x.png" />
+    <Image Include="assets\skin\mode-fruits-small.png" />
+    <Image Include="assets\skin\mode-fruits.png" />
+    <Image Include="assets\skin\mode-mania%402x.png" />
+    <Image Include="assets\skin\mode-mania-med%402x.png" />
+    <Image Include="assets\skin\mode-mania-med.png" />
+    <Image Include="assets\skin\mode-mania-small%402x.png" />
+    <Image Include="assets\skin\mode-mania-small.png" />
+    <Image Include="assets\skin\mode-mania.png" />
+    <Image Include="assets\skin\mode-osu%402x.png" />
+    <Image Include="assets\skin\mode-osu-med%402x.png" />
+    <Image Include="assets\skin\mode-osu-med.png" />
+    <Image Include="assets\skin\mode-osu-small%402x.png" />
+    <Image Include="assets\skin\mode-osu-small.png" />
+    <Image Include="assets\skin\mode-osu.png" />
+    <Image Include="assets\skin\mode-taiko%402x.png" />
+    <Image Include="assets\skin\mode-taiko-med%402x.png" />
+    <Image Include="assets\skin\mode-taiko-med.png" />
+    <Image Include="assets\skin\mode-taiko-small%402x.png" />
+    <Image Include="assets\skin\mode-taiko-small.png" />
+    <Image Include="assets\skin\mode-taiko.png" />
+    <Image Include="assets\skin\multi-skipped%402x.png" />
+    <Image Include="assets\skin\multi-skipped.png" />
+    <Image Include="assets\skin\pause-back%402x.png" />
+    <Image Include="assets\skin\pause-back.png" />
+    <Image Include="assets\skin\pause-continue%402x.png" />
+    <Image Include="assets\skin\pause-continue.png" />
+    <Image Include="assets\skin\pause-replay%402x.png" />
+    <Image Include="assets\skin\pause-replay.png" />
+    <Image Include="assets\skin\pause-retry%402x.png" />
+    <Image Include="assets\skin\pause-retry.png" />
+    <Image Include="assets\skin\pippidonclear0.png" />
+    <Image Include="assets\skin\pippidonfail0.png" />
+    <Image Include="assets\skin\pippidonidle0.png" />
+    <Image Include="assets\skin\pippidonkiai0.png" />
+    <Image Include="assets\skin\play-skip%402x.png" />
+    <Image Include="assets\skin\play-skip.png" />
+    <Image Include="assets\skin\play-unranked%402x.png" />
+    <Image Include="assets\skin\play-unranked.png" />
+    <Image Include="assets\skin\ranking-A%402x.png" />
+    <Image Include="assets\skin\ranking-A-small%402x.png" />
+    <Image Include="assets\skin\ranking-A-small.png" />
+    <Image Include="assets\skin\ranking-A.png" />
+    <Image Include="assets\skin\ranking-accuracy.png" />
+    <Image Include="assets\skin\ranking-B%402x.png" />
+    <Image Include="assets\skin\ranking-B-small%402x.png" />
+    <Image Include="assets\skin\ranking-B-small.png" />
+    <Image Include="assets\skin\ranking-B.png" />
+    <Image Include="assets\skin\ranking-C%402x.png" />
+    <Image Include="assets\skin\ranking-C-small%402x.png" />
+    <Image Include="assets\skin\ranking-C-small.png" />
+    <Image Include="assets\skin\ranking-C.png" />
+    <Image Include="assets\skin\ranking-D%402x.png" />
+    <Image Include="assets\skin\ranking-D-small%402x.png" />
+    <Image Include="assets\skin\ranking-D-small.png" />
+    <Image Include="assets\skin\ranking-D.png" />
+    <Image Include="assets\skin\ranking-graph%402x.png" />
+    <Image Include="assets\skin\ranking-graph.png" />
+    <Image Include="assets\skin\ranking-maxcombo.png" />
+    <Image Include="assets\skin\ranking-panel%402x.png" />
+    <Image Include="assets\skin\ranking-panel.png" />
+    <Image Include="assets\skin\ranking-perfect.png" />
+    <Image Include="assets\skin\ranking-S%402x.png" />
+    <Image Include="assets\skin\ranking-S-small%402x.png" />
+    <Image Include="assets\skin\ranking-S-small.png" />
+    <Image Include="assets\skin\ranking-S.png" />
+    <Image Include="assets\skin\ranking-SH%402x.png" />
+    <Image Include="assets\skin\ranking-SH-small%402x.png" />
+    <Image Include="assets\skin\ranking-SH-small.png" />
+    <Image Include="assets\skin\ranking-SH.png" />
+    <Image Include="assets\skin\ranking-title.png" />
+    <Image Include="assets\skin\ranking-winner%402x.png" />
+    <Image Include="assets\skin\ranking-winner.png" />
+    <Image Include="assets\skin\ranking-X%402x.png" />
+    <Image Include="assets\skin\ranking-X-small%402x.png" />
+    <Image Include="assets\skin\ranking-X-small.png" />
+    <Image Include="assets\skin\ranking-X.png" />
+    <Image Include="assets\skin\ranking-XH%402x.png" />
+    <Image Include="assets\skin\ranking-XH-small%402x.png" />
+    <Image Include="assets\skin\ranking-XH-small.png" />
+    <Image Include="assets\skin\ranking-XH.png" />
+    <Image Include="assets\skin\ready.png" />
+    <Image Include="assets\skin\reversearrow%402x.png" />
+    <Image Include="assets\skin\reversearrow.png" />
+    <Image Include="assets\skin\score-0%402x.png" />
+    <Image Include="assets\skin\score-0.png" />
+    <Image Include="assets\skin\score-1%402x.png" />
+    <Image Include="assets\skin\score-1.png" />
+    <Image Include="assets\skin\score-2%402x.png" />
+    <Image Include="assets\skin\score-2.png" />
+    <Image Include="assets\skin\score-3%402x.png" />
+    <Image Include="assets\skin\score-3.png" />
+    <Image Include="assets\skin\score-4%402x.png" />
+    <Image Include="assets\skin\score-4.png" />
+    <Image Include="assets\skin\score-5%402x.png" />
+    <Image Include="assets\skin\score-5.png" />
+    <Image Include="assets\skin\score-6%402x.png" />
+    <Image Include="assets\skin\score-6.png" />
+    <Image Include="assets\skin\score-7%402x.png" />
+    <Image Include="assets\skin\score-7.png" />
+    <Image Include="assets\skin\score-8%402x.png" />
+    <Image Include="assets\skin\score-8.png" />
+    <Image Include="assets\skin\score-9%402x.png" />
+    <Image Include="assets\skin\score-9.png" />
+    <Image Include="assets\skin\score-dot%402x.png" />
+    <Image Include="assets\skin\score-dot.png" />
+    <Image Include="assets\skin\score-percent%402x.png" />
+    <Image Include="assets\skin\score-percent.png" />
+    <Image Include="assets\skin\score-x%402x.png" />
+    <Image Include="assets\skin\score-x.png" />
+    <Image Include="assets\skin\scorebar-bg%402x.png" />
+    <Image Include="assets\skin\scorebar-bg.png" />
+    <Image Include="assets\skin\scorebar-colour%402x.png" />
+    <Image Include="assets\skin\scorebar-colour.png" />
+    <Image Include="assets\skin\scorebar-ki.png" />
+    <Image Include="assets\skin\scorebar-kidanger.png" />
+    <Image Include="assets\skin\scorebar-kidanger2.png" />
+    <Image Include="assets\skin\scoreentry-0%402x.png" />
+    <Image Include="assets\skin\scoreentry-0.png" />
+    <Image Include="assets\skin\scoreentry-1%402x.png" />
+    <Image Include="assets\skin\scoreentry-1.png" />
+    <Image Include="assets\skin\scoreentry-2%402x.png" />
+    <Image Include="assets\skin\scoreentry-2.png" />
+    <Image Include="assets\skin\scoreentry-3%402x.png" />
+    <Image Include="assets\skin\scoreentry-3.png" />
+    <Image Include="assets\skin\scoreentry-4%402x.png" />
+    <Image Include="assets\skin\scoreentry-4.png" />
+    <Image Include="assets\skin\scoreentry-5%402x.png" />
+    <Image Include="assets\skin\scoreentry-5.png" />
+    <Image Include="assets\skin\scoreentry-6%402x.png" />
+    <Image Include="assets\skin\scoreentry-6.png" />
+    <Image Include="assets\skin\scoreentry-7%402x.png" />
+    <Image Include="assets\skin\scoreentry-7.png" />
+    <Image Include="assets\skin\scoreentry-8%402x.png" />
+    <Image Include="assets\skin\scoreentry-8.png" />
+    <Image Include="assets\skin\scoreentry-9%402x.png" />
+    <Image Include="assets\skin\scoreentry-9.png" />
+    <Image Include="assets\skin\scoreentry-comma%402x.png" />
+    <Image Include="assets\skin\scoreentry-comma.png" />
+    <Image Include="assets\skin\scoreentry-x%402x.png" />
+    <Image Include="assets\skin\scoreentry-x.png" />
+    <Image Include="assets\skin\section-fail%402x.png" />
+    <Image Include="assets\skin\section-fail.png" />
+    <Image Include="assets\skin\section-pass%402x.png" />
+    <Image Include="assets\skin\section-pass.png" />
+    <Image Include="assets\skin\selection-mod-autoplay%402x.png" />
+    <Image Include="assets\skin\selection-mod-autoplay.png" />
+    <Image Include="assets\skin\selection-mod-cinema%402x.png" />
+    <Image Include="assets\skin\selection-mod-cinema.png" />
+    <Image Include="assets\skin\selection-mod-doubletime%402x.png" />
+    <Image Include="assets\skin\selection-mod-doubletime.png" />
+    <Image Include="assets\skin\selection-mod-easy%402x.png" />
+    <Image Include="assets\skin\selection-mod-easy.png" />
+    <Image Include="assets\skin\selection-mod-fadein%402x.png" />
+    <Image Include="assets\skin\selection-mod-fadein.png" />
+    <Image Include="assets\skin\selection-mod-flashlight%402x.png" />
+    <Image Include="assets\skin\selection-mod-flashlight.png" />
+    <Image Include="assets\skin\selection-mod-halftime%402x.png" />
+    <Image Include="assets\skin\selection-mod-halftime.png" />
+    <Image Include="assets\skin\selection-mod-hardrock%402x.png" />
+    <Image Include="assets\skin\selection-mod-hardrock.png" />
+    <Image Include="assets\skin\selection-mod-hidden%402x.png" />
+    <Image Include="assets\skin\selection-mod-hidden.png" />
+    <Image Include="assets\skin\selection-mod-key1%402x.png" />
+    <Image Include="assets\skin\selection-mod-key1.png" />
+    <Image Include="assets\skin\selection-mod-key2%402x.png" />
+    <Image Include="assets\skin\selection-mod-key2.png" />
+    <Image Include="assets\skin\selection-mod-key3%402x.png" />
+    <Image Include="assets\skin\selection-mod-key3.png" />
+    <Image Include="assets\skin\selection-mod-key4%402x.png" />
+    <Image Include="assets\skin\selection-mod-key4.png" />
+    <Image Include="assets\skin\selection-mod-key5%402x.png" />
+    <Image Include="assets\skin\selection-mod-key5.png" />
+    <Image Include="assets\skin\selection-mod-key6%402x.png" />
+    <Image Include="assets\skin\selection-mod-key6.png" />
+    <Image Include="assets\skin\selection-mod-key7%402x.png" />
+    <Image Include="assets\skin\selection-mod-key7.png" />
+    <Image Include="assets\skin\selection-mod-key8%402x.png" />
+    <Image Include="assets\skin\selection-mod-key8.png" />
+    <Image Include="assets\skin\selection-mod-key9%402x.png" />
+    <Image Include="assets\skin\selection-mod-key9.png" />
+    <Image Include="assets\skin\selection-mod-keycoop%402x.png" />
+    <Image Include="assets\skin\selection-mod-keycoop.png" />
+    <Image Include="assets\skin\selection-mod-nightcore%402x.png" />
+    <Image Include="assets\skin\selection-mod-nightcore.png" />
+    <Image Include="assets\skin\selection-mod-nofail%402x.png" />
+    <Image Include="assets\skin\selection-mod-nofail.png" />
+    <Image Include="assets\skin\selection-mod-perfect%402x.png" />
+    <Image Include="assets\skin\selection-mod-perfect.png" />
+    <Image Include="assets\skin\selection-mod-random%402x.png" />
+    <Image Include="assets\skin\selection-mod-random.png" />
+    <Image Include="assets\skin\selection-mod-relax%402x.png" />
+    <Image Include="assets\skin\selection-mod-relax.png" />
+    <Image Include="assets\skin\selection-mod-relax2%402x.png" />
+    <Image Include="assets\skin\selection-mod-relax2.png" />
+    <Image Include="assets\skin\selection-mod-scorev2%402x.png" />
+    <Image Include="assets\skin\selection-mod-scorev2.png" />
+    <Image Include="assets\skin\selection-mod-spunout%402x.png" />
+    <Image Include="assets\skin\selection-mod-spunout.png" />
+    <Image Include="assets\skin\selection-mod-suddendeath%402x.png" />
+    <Image Include="assets\skin\selection-mod-suddendeath.png" />
+    <Image Include="assets\skin\selection-mod-target%402x.png" />
+    <Image Include="assets\skin\selection-mod-target.png" />
+    <Image Include="assets\skin\selection-mode%402x.png" />
+    <Image Include="assets\skin\selection-mode-over%402x.png" />
+    <Image Include="assets\skin\selection-mode-over.png" />
+    <Image Include="assets\skin\selection-mode.png" />
+    <Image Include="assets\skin\selection-mods%402x.png" />
+    <Image Include="assets\skin\selection-mods-over%402x.png" />
+    <Image Include="assets\skin\selection-mods-over.png" />
+    <Image Include="assets\skin\selection-mods.png" />
+    <Image Include="assets\skin\selection-options%402x.png" />
+    <Image Include="assets\skin\selection-options-over%402x.png" />
+    <Image Include="assets\skin\selection-options-over.png" />
+    <Image Include="assets\skin\selection-options.png" />
+    <Image Include="assets\skin\selection-random%402x.png" />
+    <Image Include="assets\skin\selection-random-over%402x.png" />
+    <Image Include="assets\skin\selection-random-over.png" />
+    <Image Include="assets\skin\selection-random.png" />
+    <Image Include="assets\skin\selection-tab%402x.png" />
+    <Image Include="assets\skin\selection-tab.png" />
+    <Image Include="assets\skin\sliderb0%402x.png" />
+    <Image Include="assets\skin\sliderb0.png" />
+    <Image Include="assets\skin\sliderendcircle.png" />
+    <Image Include="assets\skin\sliderfollowcircle%402x.png" />
+    <Image Include="assets\skin\sliderfollowcircle.png" />
+    <Image Include="assets\skin\sliderpoint10.png" />
+    <Image Include="assets\skin\sliderpoint30.png" />
+    <Image Include="assets\skin\sliderscorepoint.png" />
+    <Image Include="assets\skin\spinner-approachcircle%402x.png" />
+    <Image Include="assets\skin\spinner-approachcircle.png" />
+    <Image Include="assets\skin\spinner-bottom.png" />
+    <Image Include="assets\skin\spinner-circle%402x.png" />
+    <Image Include="assets\skin\spinner-circle.png" />
+    <Image Include="assets\skin\spinner-clear.png" />
+    <Image Include="assets\skin\spinner-glow.png" />
+    <Image Include="assets\skin\spinner-middle%402x.png" />
+    <Image Include="assets\skin\spinner-middle.png" />
+    <Image Include="assets\skin\spinner-middle2.png" />
+    <Image Include="assets\skin\spinner-rpm%402x.png" />
+    <Image Include="assets\skin\spinner-rpm.png" />
+    <Image Include="assets\skin\spinner-spin.png" />
+    <Image Include="assets\skin\spinner-top%402x.png" />
+    <Image Include="assets\skin\spinner-top.png" />
+    <Image Include="assets\skin\spinner-warning%402x.png" />
+    <Image Include="assets\skin\spinner-warning.png" />
+    <Image Include="assets\skin\star.png" />
+    <Image Include="assets\skin\star2.png" />
+    <Image Include="assets\skin\star3.png" />
+    <Image Include="assets\skin\Taiko-bar-left%402x.png" />
+    <Image Include="assets\skin\Taiko-bar-left.png" />
+    <Image Include="assets\skin\taiko-bar-right%402x.png" />
+    <Image Include="assets\skin\taiko-bar-right-glow%402x.png" />
+    <Image Include="assets\skin\taiko-bar-right-glow.png" />
+    <Image Include="assets\skin\taiko-bar-right.png" />
+    <Image Include="assets\skin\Taiko-drum-inner%402x.png" />
+    <Image Include="assets\skin\Taiko-drum-inner.png" />
+    <Image Include="assets\skin\Taiko-drum-outer%402x.png" />
+    <Image Include="assets\skin\Taiko-drum-outer.png" />
+    <Image Include="assets\skin\taiko-flower-group.png" />
+    <Image Include="assets\skin\taiko-glow.png" />
+    <Image Include="assets\skin\taiko-hit0%402x.png" />
+    <Image Include="assets\skin\taiko-hit0-0%402x.png" />
+    <Image Include="assets\skin\taiko-hit0-0.png" />
+    <Image Include="assets\skin\taiko-hit0.png" />
+    <Image Include="assets\skin\taiko-hit100%402x.png" />
+    <Image Include="assets\skin\taiko-hit100-0%402x.png" />
+    <Image Include="assets\skin\taiko-hit100-0.png" />
+    <Image Include="assets\skin\taiko-hit100.png" />
+    <Image Include="assets\skin\taiko-hit100k%402x.png" />
+    <Image Include="assets\skin\taiko-hit100k-0.png" />
+    <Image Include="assets\skin\taiko-hit100k.png" />
+    <Image Include="assets\skin\taiko-hit300%402x.png" />
+    <Image Include="assets\skin\taiko-hit300-0.png" />
+    <Image Include="assets\skin\taiko-hit300.png" />
+    <Image Include="assets\skin\taiko-hit300g%402x.png" />
+    <Image Include="assets\skin\taiko-hit300g-0.png" />
+    <Image Include="assets\skin\taiko-hit300g.png" />
+    <Image Include="assets\skin\taiko-hit300k-0.png" />
+    <Image Include="assets\skin\taiko-roll-end%402x.png" />
+    <Image Include="assets\skin\taiko-roll-end.png" />
+    <Image Include="assets\skin\taiko-roll-middle%402x.png" />
+    <Image Include="assets\skin\taiko-roll-middle.png" />
+    <Image Include="assets\skin\taiko-slider%402x.png" />
+    <Image Include="assets\skin\taiko-slider-fail%402x.png" />
+    <Image Include="assets\skin\taiko-slider-fail.png" />
+    <Image Include="assets\skin\taiko-slider.png" />
+    <Image Include="assets\skin\taikobigcircleoverlay%402x.png" />
+    <Image Include="assets\skin\taikobigcircleoverlay.png" />
+    <Image Include="assets\skin\taikohitcircleoverlay%402x.png" />
+    <Image Include="assets\skin\taikohitcircleoverlay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="assets\skin\count1s.wav" />
+    <Media Include="assets\skin\count2s.wav" />
+    <Media Include="assets\skin\count3s.wav" />
+    <Media Include="assets\skin\gos.wav" />
+    <Media Include="assets\skin\normal-hitclap.wav" />
+    <Media Include="assets\skin\normal-hitfinish.wav" />
+    <Media Include="assets\skin\normal-hitnormal.wav" />
+    <Media Include="assets\skin\normal-hitwhistle.wav" />
+    <Media Include="assets\skin\normal-sliderslide.wav" />
+    <Media Include="assets\skin\normal-slidertick.wav" />
+    <Media Include="assets\skin\normal-sliderwhistle.wav" />
+    <Media Include="assets\skin\soft-hitclap.wav" />
+    <Media Include="assets\skin\soft-hitfinish.wav" />
+    <Media Include="assets\skin\soft-hitnormal.wav" />
+    <Media Include="assets\skin\soft-hitwhistle.wav" />
+    <Media Include="assets\skin\soft-sliderslide.wav" />
+    <Media Include="assets\skin\soft-slidertick.wav" />
+    <Media Include="assets\skin\soft-sliderwhistle.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\skin\skin.ini" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

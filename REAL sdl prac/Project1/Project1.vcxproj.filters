@@ -1,0 +1,1387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="assets">
+      <UniqueIdentifier>{11530188-85f8-4828-bcb4-c1f803b55aff}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\skin\approachcircle.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\approachcircle%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\arrow-warning.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\arrow-warning%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\button-left.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\button-left%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\button-middle.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\button-middle%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\button-right.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\button-right%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\comboburst-0.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\comboburst-fruits-0.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\comboburst-mania-0.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\count1.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\count2.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\count3.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\cursor.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\cursor%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\cursormiddle.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\cursortrail.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\cursortrail%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\default-0.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\default-1.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\default-2.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\default-3.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\default-4.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\default-5.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\default-6.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\default-7.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\default-8.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\default-9.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\fail-background.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\fail-background%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\followpoint.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\fruit-apple.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\fruit-apple%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\fruit-apple-overlay.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\fruit-bananas.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\fruit-bananas%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\fruit-bananas-overlay.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\fruit-catcher-fail.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\fruit-catcher-fail%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\fruit-catcher-idle.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\fruit-catcher-idle%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\fruit-catcher-kiai.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\fruit-catcher-kiai%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\fruit-drop.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\fruit-drop%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\fruit-grapes.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\fruit-grapes%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\fruit-grapes-overlay.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\fruit-orange.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\fruit-orange%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\fruit-orange-overlay.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\fruit-pear.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\fruit-pear%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\fruit-pear-overlay.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\go.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\hit0.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\hit0%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\hit0-0.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\hit0-0%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\hit50.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\hit50%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\hit50-0.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\hit50-0%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\hit100.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\hit100%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\hit100-0.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\hit100-0%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\hit100k.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\hit100k%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\hit100k-0.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\hit100k-0%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\hit300.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\hit300%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\hit300-0.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\hit300g.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\hit300g%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\hit300g-0.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\hit300k.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\hit300k-0.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\hitcircle.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\hitcircle%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\hitcircleoverlay.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\hitcircleoverlay%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\hitcircleselect.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\hitcircleselect%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\inputoverlay-background.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\inputoverlay-key.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\inputoverlay-key%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\lighting.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\lightingL.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\lightingL%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\lightingN.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\lightingN%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mania-hit0.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mania-hit0%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mania-hit0-0.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mania-hit0-0%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mania-hit50.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mania-hit50%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mania-hit50-0.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mania-hit50-0%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mania-hit100.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mania-hit100%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mania-hit100-0.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mania-hit100-0%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mania-hit100k.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mania-hit100k%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mania-hit200.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mania-hit200%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mania-hit200-0.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mania-hit200-0%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mania-hit300.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mania-hit300%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mania-hit300-0.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mania-hit300-0%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mania-hit300g.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mania-hit300g%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mania-hit300g-0.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mania-key.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mania-key%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mania-keyD.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mania-keyD%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mania-note.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mania-stage-hint.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mania-stage-left.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mania-stage-light.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mania-stage-light%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mania-stage-right.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mania-warningarrow.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mania-warningarrow%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\menu-back.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\menu-back%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\menu-background.jpg">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\menu-background%402x.jpg">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\menu-button-background.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\menu-button-background%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mode-fruits.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mode-fruits%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mode-fruits-med.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mode-fruits-med%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mode-fruits-small.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mode-fruits-small%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mode-mania.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mode-mania%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mode-mania-med.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mode-mania-med%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mode-mania-small.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mode-mania-small%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mode-osu.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mode-osu%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mode-osu-med.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mode-osu-med%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mode-osu-small.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mode-osu-small%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mode-taiko.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mode-taiko%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mode-taiko-med.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mode-taiko-med%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mode-taiko-small.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\mode-taiko-small%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\multi-skipped.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\multi-skipped%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\pause-back.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\pause-back%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\pause-continue.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\pause-continue%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\pause-replay.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\pause-replay%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\pause-retry.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\pause-retry%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\pippidonclear0.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\pippidonfail0.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\pippidonidle0.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\pippidonkiai0.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\play-skip.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\play-skip%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\play-unranked.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\play-unranked%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\ranking-A.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\ranking-A%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\ranking-accuracy.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\ranking-A-small.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\ranking-A-small%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\ranking-B.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\ranking-B%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\ranking-B-small.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\ranking-B-small%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\ranking-C.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\ranking-C%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\ranking-C-small.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\ranking-C-small%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\ranking-D.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\ranking-D%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\ranking-D-small.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\ranking-D-small%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\ranking-graph.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\ranking-graph%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\ranking-maxcombo.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\ranking-panel.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\ranking-panel%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\ranking-perfect.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\ranking-S.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\ranking-S%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\ranking-SH.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\ranking-SH%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\ranking-SH-small.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\ranking-SH-small%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\ranking-S-small.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\ranking-S-small%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\ranking-title.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\ranking-winner.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\ranking-winner%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\ranking-X.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\ranking-X%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\ranking-XH.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\ranking-XH%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\ranking-XH-small.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\ranking-XH-small%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\ranking-X-small.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\ranking-X-small%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\ready.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\reversearrow.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\reversearrow%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\score-0.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\score-0%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\score-1.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\score-1%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\score-2.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\score-2%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\score-3.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\score-3%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\score-4.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\score-4%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\score-5.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\score-5%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\score-6.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\score-6%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\score-7.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\score-7%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\score-8.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\score-8%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\score-9.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\score-9%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\scorebar-bg.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\scorebar-bg%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\scorebar-colour.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\scorebar-colour%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\scorebar-ki.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\scorebar-kidanger.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\scorebar-kidanger2.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\score-dot.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\score-dot%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\scoreentry-0.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\scoreentry-0%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\scoreentry-1.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\scoreentry-1%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\scoreentry-2.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\scoreentry-2%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\scoreentry-3.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\scoreentry-3%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\scoreentry-4.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\scoreentry-4%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\scoreentry-5.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\scoreentry-5%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\scoreentry-6.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\scoreentry-6%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\scoreentry-7.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\scoreentry-7%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\scoreentry-8.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\scoreentry-8%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\scoreentry-9.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\scoreentry-9%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\scoreentry-comma.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\scoreentry-comma%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\scoreentry-x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\scoreentry-x%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\score-percent.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\score-percent%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\score-x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\score-x%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\section-fail.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\section-fail%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\section-pass.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\section-pass%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mod-autoplay.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mod-autoplay%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mod-cinema.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mod-cinema%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mod-doubletime.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mod-doubletime%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mode.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mode%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mod-easy.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mod-easy%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mode-over.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mode-over%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mod-fadein.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mod-fadein%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mod-flashlight.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mod-flashlight%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mod-halftime.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mod-halftime%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mod-hardrock.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mod-hardrock%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mod-hidden.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mod-hidden%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mod-key1.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mod-key1%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mod-key2.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mod-key2%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mod-key3.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mod-key3%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mod-key4.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mod-key4%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mod-key5.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mod-key5%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mod-key6.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mod-key6%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mod-key7.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mod-key7%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mod-key8.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mod-key8%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mod-key9.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mod-key9%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mod-keycoop.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mod-keycoop%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mod-nightcore.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mod-nightcore%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mod-nofail.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mod-nofail%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mod-perfect.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mod-perfect%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mod-random.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mod-random%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mod-relax.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mod-relax%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mod-relax2.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mod-relax2%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mods.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mods%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mod-scorev2.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mod-scorev2%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mods-over.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mods-over%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mod-spunout.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mod-spunout%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mod-suddendeath.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mod-suddendeath%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mod-target.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-mod-target%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-options.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-options%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-options-over.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-options-over%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-random.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-random%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-random-over.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-random-over%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-tab.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\selection-tab%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\sliderb0.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\sliderb0%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\sliderendcircle.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\sliderfollowcircle.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\sliderfollowcircle%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\sliderpoint10.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\sliderpoint30.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\sliderscorepoint.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\spinner-approachcircle.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\spinner-approachcircle%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\spinner-bottom.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\spinner-circle.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\spinner-circle%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\spinner-clear.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\spinner-glow.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\spinner-middle.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\spinner-middle%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\spinner-middle2.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\spinner-rpm.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\spinner-rpm%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\spinner-spin.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\spinner-top.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\spinner-top%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\spinner-warning.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\spinner-warning%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\star.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\star2.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\star3.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\Taiko-bar-left.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\Taiko-bar-left%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\taiko-bar-right.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\taiko-bar-right%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\taiko-bar-right-glow.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\taiko-bar-right-glow%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\taikobigcircleoverlay.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\taikobigcircleoverlay%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\Taiko-drum-inner.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\Taiko-drum-inner%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\Taiko-drum-outer.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\Taiko-drum-outer%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\taiko-flower-group.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\taiko-glow.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\taiko-hit0.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\taiko-hit0%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\taiko-hit0-0.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\taiko-hit0-0%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\taiko-hit100.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\taiko-hit100%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\taiko-hit100-0.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\taiko-hit100-0%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\taiko-hit100k.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\taiko-hit100k%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\taiko-hit100k-0.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\taiko-hit300.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\taiko-hit300%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\taiko-hit300-0.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\taiko-hit300g.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\taiko-hit300g%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\taiko-hit300g-0.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\taiko-hit300k-0.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\taikohitcircleoverlay.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\taikohitcircleoverlay%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\taiko-roll-end.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\taiko-roll-end%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\taiko-roll-middle.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\taiko-roll-middle%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\taiko-slider.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\taiko-slider%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\taiko-slider-fail.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\skin\taiko-slider-fail%402x.png">
+      <Filter>assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="assets\skin\count1s.wav">
+      <Filter>assets</Filter>
+    </Media>
+    <Media Include="assets\skin\count2s.wav">
+      <Filter>assets</Filter>
+    </Media>
+    <Media Include="assets\skin\count3s.wav">
+      <Filter>assets</Filter>
+    </Media>
+    <Media Include="assets\skin\gos.wav">
+      <Filter>assets</Filter>
+    </Media>
+    <Media Include="assets\skin\normal-hitclap.wav">
+      <Filter>assets</Filter>
+    </Media>
+    <Media Include="assets\skin\normal-hitfinish.wav">
+      <Filter>assets</Filter>
+    </Media>
+    <Media Include="assets\skin\normal-hitnormal.wav">
+      <Filter>assets</Filter>
+    </Media>
+    <Media Include="assets\skin\normal-hitwhistle.wav">
+      <Filter>assets</Filter>
+    </Media>
+    <Media Include="assets\skin\normal-sliderslide.wav">
+      <Filter>assets</Filter>
+    </Media>
+    <Media Include="assets\skin\normal-slidertick.wav">
+      <Filter>assets</Filter>
+    </Media>
+    <Media Include="assets\skin\normal-sliderwhistle.wav">
+      <Filter>assets</Filter>
+    </Media>
+    <Media Include="assets\skin\soft-hitclap.wav">
+      <Filter>assets</Filter>
+    </Media>
+    <Media Include="assets\skin\soft-hitfinish.wav">
+      <Filter>assets</Filter>
+    </Media>
+    <Media Include="assets\skin\soft-hitnormal.wav">
+      <Filter>assets</Filter>
+    </Media>
+    <Media Include="assets\skin\soft-hitwhistle.wav">
+      <Filter>assets</Filter>
+    </Media>
+    <Media Include="assets\skin\soft-sliderslide.wav">
+      <Filter>assets</Filter>
+    </Media>
+    <Media Include="assets\skin\soft-slidertick.wav">
+      <Filter>assets</Filter>
+    </Media>
+    <Media Include="assets\skin\soft-sliderwhistle.wav">
+      <Filter>assets</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\skin\skin.ini">
+      <Filter>assets</Filter>
+    </None>
+  </ItemGroup>
+</Project>
